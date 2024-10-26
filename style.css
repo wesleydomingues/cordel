@@ -1,0 +1,114 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Rubik+Wet+Paint&display=swap');
+
+:root{
+ --font1: Verdana, Geneva, Tahoma, sans-serif; 
+ --font2: 'Rubik Wet Paint';
+ --font3: 'Bebas Neue';
+
+}
+
+
+
+
+
+
+section >pre{
+    white-space: pre-line;
+
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: bisque;
+   
+}
+ 
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header >h1{
+    padding: 50px;
+    font-family: var(--font2);
+    
+
+}
+header >p{
+padding-bottom: 50px;
+
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;}
+section{
+padding-top: 10vh;
+padding-bottom: 10vh;
+line-height: 2em;
+padding-left: 30px;
+
+
+}
+.normal{
+    background-color: white;
+
+}
+
+.imagen{
+    background-color: rgba(0, 0, 0, 0.741);
+   color: white;
+}
+.pre > p {
+   background-color: rgba(0, 0, 0, 0.425); 
+   width: 400px;
+   text-shadow: 1px -1px 3px rgb(0, 0, 0);}
+pre{
+    font-family: var(--font3);
+   
+}
+
+pre > p{
+    font-size: xx-large;
+
+  
+}
+
+#img01{
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+background-attachment: fixed;
+
+
+
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
